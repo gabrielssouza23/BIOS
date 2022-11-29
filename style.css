@@ -34,6 +34,7 @@ header{
 }
 
 #search{
+    margin: 0 auto;
     width: 80%;
     background-color: blue;
     color: white; 
@@ -93,6 +94,7 @@ section{
 }
 
 .categories{
+    display: flex;
     overflow-x: scroll;
     gap: 1rem;
     text-align: center;
@@ -103,24 +105,55 @@ section{
     height: 5rem;
 }
 
+.servicesDiv{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+
 .service{
     border-bottom: 1px solid gray;
     display: grid;
     align-items: center;
     text-align: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
+    gap: 1rem;
     padding: 10px;
 }
 
-.demand{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid gray;
+.direct{
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.service > img, .demand > div > img{
+.list{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.demand{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 6.5rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.more{
+    grid-column: 1/3;
+    margin: 10px;
+}
+
+.more > img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.profile{
     margin: 0 auto;
     border-radius: 50%;
     width: 5rem;
@@ -155,9 +188,20 @@ footer{
     width: 15rem;
 }
 
-@media (min-width: 768px){
+@media (min-width: 426px){
     nav{
+        height: 0;
         width: 100%;
-        height: 10%;
     }
+    section{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .servicesDiv{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .list{
+        grid-template-columns: auto auto;
+    }
+    
 }
