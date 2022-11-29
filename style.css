@@ -81,12 +81,7 @@ nav a{
 
 section{
     background-color: white;
-    display: flex;
     padding: 10px;
-}
-
-section *{
-    margin: 0 auto;
 }
 
 #write{
@@ -118,6 +113,22 @@ section *{
     padding: 10px;
 }
 
+.demand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.service > img, .demand > div > img{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    align-items: center;
+    border: 1px solid black;
+}
+
 ul{
     display: flex;
     list-style-type: none;
@@ -132,14 +143,6 @@ li{
     background-color: lightblue;
     padding: 2px;
     margin: 1px;
-}
-
-.service > img{
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    align-items: center;
 }
 
 footer{
