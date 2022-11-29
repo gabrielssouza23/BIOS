@@ -34,10 +34,12 @@
             placeholder="Procurar serviço"
           />
         </div>
-        <button id="search">procurar</button>
+        <button id="search" onclick="filter('service')" href="">
+          <p>Procurar</p>
+        </button>
       </section>
       <section class="categories">
-        <a href="">
+        <button onclick="filter('jardineiro')" href="">
           <div class="filter">
             <img
               src="imgs/png-transparent-floral-design-flowerpot-vase-drawing-flower-food-violet-vase.png"
@@ -45,41 +47,48 @@
             />
             <p>Jardineiro</p>
           </div>
-        </a>
-        <a href="">
+        </button>
+        <button onclick="filter('mecanico')" href="">
           <div>
             <img src="imgs/mecanico.png" alt="" />
             <p>Mecanico</p>
           </div>
-        </a>
-        <a href="">
+        </button>
+        <button onclick="filter('limpeza')" href="">
           <div>
             <img src="imgs/limpeza.jpeg" alt="" />
             <p>Limpeza</p>
           </div>
-        </a>
-        <a href="">
+        </button>
+        <button onclick="filter('eletrecista')" href="">
           <div>
             <img src="imgs/eletrecista.jpeg" alt="" />
             <p>Eletrecista</p>
           </div>
-        </a>
-        <a href="">
+        </button>
+        <button onclick="filter('manicure')" href="">
           <div>
             <img src="imgs/manicure.jpeg" alt="" />
             <p>Manicure</p>
           </div>
-        </a>
-        <a href="">
+        </button>
+        <button onclick="filter('cuidadora')" href="">
           <div>
-            <p></p>
+            <img src="imgs/cuidadora.jpeg" alt="" />
+            <p>Cuidadora</p>
           </div>
-        </a>
+        </button>
+        <button onclick="filter('fotografo')" href="">
+          <div>
+            <img src="imgs/fotografia.jpeg" alt="" />
+            <p>Fotografo</p>
+          </div>
+        </button>
       </section>
       <section class="servicesDiv">
         <a href="business.html">
-          <div class="service">
-            <img src="imgs/pedreiro.jpg" alt="" class="profile"/>
+          <div class="service pedreiro pintor mecanico">
+            <img src="imgs/pedreiro.jpg" alt="" class="profile" />
             <p>Edinho pedreiro</p>
             <p>Preço médio: R$ 120</p>
             <p>Serviço: Em casa</p>
@@ -91,8 +100,8 @@
           </div>
         </a>
         <a href="">
-          <div class="service">
-            <img src="imgs/barbearia.jpg" alt="" class="profile"/>
+          <div class="service cabelereiro barbearia">
+            <img src="imgs/barbearia.jpg" alt="" class="profile" />
             <p>Barbudos barbearia</p>
             <p>Preço médio: R$ 30</p>
             <p>Serviço: Estabelecimento</p>
@@ -103,8 +112,8 @@
           </div>
         </a>
         <a href="">
-          <div class="service">
-            <img src="imgs/fotografo.jpeg" alt="" class="profile"/>
+          <div class="service fotografo">
+            <img src="imgs/fotografo.jpeg" alt="" class="profile" />
             <p>Photography</p>
             <p>Preço médio: R$ 69</p>
             <p>Serviço: Em casa</p>
@@ -114,8 +123,8 @@
           </div>
         </a>
         <a href="">
-          <div class="service">
-            <img src="imgs/parada.jpg" alt="" class="profile"/>
+          <div class="service mecanico lava-jato">
+            <img src="imgs/parada.jpg" alt="" class="profile" />
             <p>Parada segura</p>
             <p>Preço médio: R$ 200</p>
             <p>Serviço: Estabelecimento</p>
@@ -126,8 +135,8 @@
           </div>
         </a>
         <a href="">
-          <div class="service">
-            <img src="imgs/ze.png" alt="" class="profile"/>
+          <div class="service eletronicos manutencao concerto">
+            <img src="imgs/ze.png" alt="" class="profile" />
             <p>Zé informática</p>
             <p>Preço médio: variavel</p>
             <p>Serviço: Entrega</p>

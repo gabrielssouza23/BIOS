@@ -116,7 +116,6 @@ section{
     align-items: center;
     text-align: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
     padding: 10px;
 }
 
@@ -182,6 +181,7 @@ footer{
     margin-top: 1rem;
     width: 100%;
     background-color: darkgray;
+    text-align: center;
 }
 
 #ifsul{

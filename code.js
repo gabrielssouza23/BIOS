@@ -13,17 +13,32 @@ function openNav() {
   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function filter(tag) {
+  var types = document.getElementsByClassName("service");
+  var i;
+  for (i = 0; i < types.length; i++) {
+    let thisType = types[i];
+    thisType.style.display = "grid";
+  }
+  for (i = 0; i < types.length; i++) {
+    let thisType = types[i];
+    if (thisType.classList.contains(tag)) {
+    } else {
+      thisType.style.display = "none";
+    }
+  }
+}
+
 function closeNav() {
   document.getElementById("nav").style.width = "0";
   document.body.style.backgroundColor = "white";
 }
 
 function more(id) {
-  var requests = document.getElementsByClassName("demand");
-  var i;
+  let requests = document.getElementsByClassName("demand");
+  let i;
   for (i = 0; i < requests.length; i++) {
-    var openRequest = requests[i];
+    let openRequest = requests[i];
     openRequest.style.height = "6.5rem";
   }
   document.getElementById(id).style.height = "auto";
