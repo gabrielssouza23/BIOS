@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="profileStyle.css" />
-    <title>Edinho pedreiro</title>
+    <title>Document</title>
   </head>
   <body>
     <header>
@@ -35,55 +35,19 @@
         </p>
         <p>Preço médio: R$ 120</p>
         <p>Serviço: Em casa</p>
-        <p>Endereço: Rua Jesus 420</p>
       </section>
       <section class="menu">
         <h3>Pedreiro</h3>
         <div class="select">
-          <div class="option">
-            <p>Levantar parede</p>
-            <p class="price">R$29</p>
-            <p>Preço por metro</p>
-          </div>
-          <div class="option">
-            <p>Rebocar parede</p>
-            <p class="price">R$9</p>
-            <p>Preço por metro</p>
-          </div>
-          <div class="option">
-            <p>Colar lajota</p>
-            <p class="price">R$19</p>
-            <p>Preço por metro</p>
-          </div>
+          <p>Construir peça</p>
         </div>
         <h3>Pintor</h3>
         <div class="select">
-          <div class="option">
-            <p>Pintar parede</p>
-            <p class="price">R$12</p>
-            <p>Preço por metro quadrado</p>
-          </div>
-          <div class="option">
-            <p>Pintar cerca/parede</p>
-            <p class="price">R$18</p>
-            <p>Preço por metro quadrado</p>
-          </div>
+          <p>Pintar 10m²</p>
         </div>
         <h3>Mecanico</h3>
         <div class="select">
-          <div class="option">
-            <p>Trocar Pneu</p>
-            <p class="price">R$59</p>
-            <p>Preço por pneu</p>
-          </div>
-          <div class="option">
-            <p>Consertar motor</p>
-            <p class="price">R$119</p>
-            <p>
-              Caso necessario novas peças, o preço será ajustado ao preço da
-              peça
-            </p>
-          </div>
+          <p>Trocar Pneu</p>
           <p>Consertar Motor</p>
         </div>
       </section>

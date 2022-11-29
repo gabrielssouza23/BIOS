@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+#reg{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+#reg #paragrafo{
+    background: #FFDE59;
+    border-radius: 15px;
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 8px;
+    color: #000000;
+    margin-left: 2rem;
+}
+#links{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -0.3rem;
+}
+
+a{
+    text-decoration: none;  
+    text-align: center;
+}
+
+img{
+    width: 10rem;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    border-bottom: 5px solid #FFDE59; 
+}

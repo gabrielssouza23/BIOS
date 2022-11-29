@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Bee.co | Home</title>
+    <title>Document</title>
   </head>
   <body>
     <header>
       <button onclick="openNav()" id="tog">
-        <img src="svgs/burger.svg" alt="list" />
+        <img src="burger.svg" alt="list" />
       </button>
       <img src="imgs/beeco-removebg-preview.png" id="logo" alt="Beeco" />
-      <a id="sign" href="">Sign in / Sign up</a>
+      <a id="sign" href="registerRedirecionamento.html">Sign in / Sign up</a>
     </header>
     <nav id="nav">
       <button onclick="closeNav()">
-        <img src="svgs/close.svg" alt="" />
+        <img src="close.svg" alt="">
       </button>
       <a href="">Link</a>
       <a href="">QNA</a>
@@ -26,7 +26,7 @@
     <main>
       <section id="bar">
         <div class="div-search">
-          <img src="svgs/search.svg" alt="buscar" />
+          <img src="search.svg" alt="buscar" />
           <input
             type="text"
             name="search"
@@ -89,8 +89,6 @@
               <li>Mecanico</li>
             </ul>
           </div>
-        </a>
-        <a href="">
           <div class="service">
             <img src="imgs/barbearia.jpg" alt="" />
             <p>Barbudos barbearia</p>
@@ -101,8 +99,6 @@
               <li>Barbearia</li>
             </ul>
           </div>
-        </a>
-        <a href="">
           <div class="service">
             <img src="imgs/fotografo.jpeg" alt="" />
             <p>Photography</p>
@@ -112,8 +108,6 @@
               <li>fotografo</li>
             </ul>
           </div>
-        </a>
-        <a href="">
           <div class="service">
             <img src="imgs/parada.jpg" alt="" />
             <p>Parada segura</p>
@@ -124,8 +118,6 @@
               <li>Lava-jato</li>
             </ul>
           </div>
-        </a>
-        <a href="">
           <div class="service">
             <img src="imgs/ze.png" alt="" />
             <p>Zé informática</p>
