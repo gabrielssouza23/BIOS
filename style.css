@@ -93,6 +93,10 @@ section{
     background-color: #EFF5F5;
 }
 
+#myRange{
+    
+}
+
 .categories{
     display: flex;
     overflow-x: scroll;
