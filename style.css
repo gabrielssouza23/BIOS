@@ -1,10 +1,7 @@
 *{
     margin: 0;
 }
-.div-search{
-    background-color: #EFF5F5;
-    border-radius: 5px;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -29,6 +26,11 @@ header{
     display: flex;
     flex-direction: column;
     row-gap: 1em;
+}
+
+.div-search{
+    background-color: #EFF5F5;
+    border-radius: 5px;
 }
 
 #search{
@@ -61,13 +63,15 @@ header{
 }
 
 nav{
-    width: 80%;
+    width: 0;
     height: 100%;
     position: fixed;
+    display: flex;
     left: 0;
     background-color: #EFF5F5;
-    display: none;
     flex-direction: column;
+    transition: 0.5s;
+    overflow: hidden;
 }
 
 nav a{
@@ -105,7 +109,7 @@ section *{
 }
 
 .service{
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     display: grid;
     align-items: center;
     text-align: center;

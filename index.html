@@ -9,13 +9,16 @@
   </head>
   <body>
     <header>
-      <button onclick="showNav()" id="tog">
+      <button onclick="openNav()" id="tog">
         <img src="burger.svg" alt="list" />
       </button>
       <img src="imgs/beeco-removebg-preview.png" id="logo" alt="Beeco" />
       <a id="sign" href="">Sign in / Sign up</a>
     </header>
     <nav id="nav">
+      <button onclick="closeNav()">
+        <img src="close.svg" alt="">
+      </button>
       <a href="">Link</a>
       <a href="">QNA</a>
       <a href="">About</a>
@@ -74,7 +77,7 @@
         </a>
       </section>
       <section>
-        <a href="">
+        <a href="business.html">
           <div class="service">
             <img src="imgs/pedreiro.jpg" alt="" />
             <p>Edinho pedreiro</p>
